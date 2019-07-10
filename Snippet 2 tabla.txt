@@ -1,0 +1,170 @@
+<html>
+<link rel = "stylesheet" type = "text/css" href = "estilo2.css" />
+<div id="caja">
+  <table id="tablalistado">
+      <thead>
+        <tr>
+          <th colspan="5">Conversación</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Perrito</td>
+          <td>Afganistan</td>
+          <td>2019-04-02 10:53:12</td>
+          <td>Hola que tal? como va todo chat?</td>
+          <td><button>Eliminar</button></td>
+        </tr>
+        <tr>
+          <td>Perrito</td>
+          <td>Afganistan</td>
+          <td>2019-04-02 10:53:12</td>
+          <td>Hola que tal? como va todo chat?</td>
+          <td><button>Eliminar</button></td>
+        </tr>
+        <tr>
+          <td>Perrito</td>
+          <td>Afganistan</td>
+          <td>2019-04-02 10:53:12</td>
+          <td>Hola que tal? como va todo chat?</td>
+          <td><button>Eliminar</button></td>
+        </tr>
+        <tr>
+          <td>Perrito</td>
+          <td>Afganistan</td>
+          <td>2019-04-02 10:53:12</td>
+          <td>Hola que tal? como va todo chat?</td>
+          <td><button>Eliminar</button></td>
+        </tr>
+        <tr>
+          <td>Perrito</td>
+          <td>Afganistan</td>
+          <td>2019-04-02 10:53:12</td>
+          <td>Hola que tal? como va todo chat?</td>
+          <td><button>Eliminar</button></td>
+        </tr>
+        <tr>
+          <td>Perrito</td>
+          <td>Afganistan</td>
+          <td>2019-04-02 10:53:12</td>
+          <td>Hola que tal? como va todo chat?</td>
+          <td><button>Eliminar</button></td>
+        </tr>
+        <tr>
+          <td>Perrito</td>
+          <td>Afganistan</td>
+          <td>2019-04-02 10:53:12</td>
+          <td>Hola que tal? como va todo chat?</td>
+          <td><button>Eliminar</button></td>
+        </tr>
+        <tr>
+          <td>Perrito</td>
+          <td>Afganistan</td>
+          <td>2019-04-02 10:53:12</td>
+          <td>Hola que tal? como va todo chat?</td>
+          <td><button>Eliminar</button></td>
+        </tr>
+        <tr>
+          <td>Perrito</td>
+          <td>Afganistan</td>
+          <td>2019-04-02 10:53:12</td>
+          <td>Hola que tal? como va todo chat?</td>
+          <td><button>Eliminar</button></td>
+        </tr>
+        <tr>
+          <td>Perrito</td>
+          <td>Afganistan</td>
+          <td>2019-04-02 10:53:12</td>
+          <td>Hola que tal? como va todo chat?</td>
+          <td><button>Eliminar</button></td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+<br>
+<div id="caja2">
+    <table>
+    <tr id="cabecera">
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td>Peter</td>
+        <td>Griffin</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>Lois</td>
+        <td>Griffin</td>
+        <td>$150</td>
+      </tr>
+      <tr>
+        <td>Joe</td>
+        <td>Swanson</td>
+        <td>$300</td>
+      </tr>
+      <tr>
+        <td>Cleveland</td>
+        <td>Brown</td>
+        <td>$250</td>
+      </tr>
+    </table>
+</div>
+<html>
+--------------------------------CSS-------------------------------------
+
+#tablalistado {
+    border-collapse: collapse;
+  }
+#tablalistado th {
+    background-color: #F5F5F6;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+  }
+#tablalistado  tr:nth-child(odd) {
+    background: #F9F9F9;
+  }
+#tablalistado  td {
+    padding: 10px;
+    width: 200px;
+  }
+  #thtitle {
+    text-align: center !important;
+}
+
+#caja{
+  width: 600px;
+  height: 600px;;
+  overflow:auto;
+  margin: 10%;
+}
+
+#listadotitle{
+  width: 100%;
+  height: 6%;
+  background-color: lightgrey;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#cabecera{
+  background-color: #F5F5F6;
+}
+
+#caja2{
+  width: 600px;
+  height: 600px;
+}
